@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+/* header */
+
+.logo_anton img {
+    width: 120px;
+    height: 80px;
+    margin: 10px;
+  
+}
+
+.nav_link_container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;    
+    
+}
+
+.link {
+    width: 160px;
+    font-size: 1.8rem;
+    margin-top: 50px;
+}
+
+
+/* footer */
+
+footer {
+    height: 50px;
+    background-color: #dcdcdc;
+}
+
+
+.redes_container {
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+     
+}
+
+.redes_container li {
+    list-style-type: none;
+    
+}
+
+.redes_container li a img {
+   height: 2rem;
+   width: 2rem;
+   margin-top: 10px;
+   
+}
+
+
+.copy_container {
+    text-align: right;
+    margin-top: 10px;
+
+}
+
+.copy_container p {
+    font-size: 1rem;
+    position: relative;
+    top: 10px;
+    
+}
+
+/* mobile footer */
+
+@media screen and (max-width: 375px) {
+    .copy_container {
+            
+    }
+    
+}
