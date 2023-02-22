@@ -115,7 +115,6 @@ footer {
 
 }
 
-
 .alquileres_h2_container {
     display: block;
     text-align: center;
@@ -136,6 +135,7 @@ footer {
 .alquileres_p_container p {
     text-align: center;
     margin-left: 50px;
+    width: 23rem;
 }
 
 .alquileres_cargarMas_container {
@@ -148,10 +148,20 @@ footer {
     font-weight: bold;
 }
 
-@media screen and (max-width: 375px) {
+/* vista mobile pages alquileres */
+
+@media screen and (max-width: 376px) {
     .main_alquileres_container {
         flex-direction: column;
         
     }
 
+    .alquileres_p_container {
+        width: 25rem;
+    }
+
 }
+
+
+/* pages servicios */
+
