@@ -9,6 +9,11 @@ html {
 
 /* header */
 
+.body_container {
+    width: 100%;
+    height: 100%;
+}
+
 .logo_anton img {
     width: 120px;
     height: 80px;
@@ -74,8 +79,78 @@ footer {
 /* mobile footer */
 
 @media screen and (max-width: 375px) {
-    .copy_container {
-            
+    .copy_container p {
+            display: none;
+    }
+
+    .redes_container {
+            display: flex;
+            justify-content: flex-start;
+
+    }
+
+    .redes_container li a {
+            padding-left: 15px;
+
     }
     
+}
+
+/* Pages alquileres */
+
+.main_alquileres_container {
+    display: flex;
+    justify-content: center;
+    align-content: space-around;
+    margin: 1rem;
+
+}
+
+.main_alquileres_container_img img {
+    margin: 2rem;
+
+}
+
+
+.alquileres_h2_container {
+    display: block;
+    text-align: center;
+}
+
+.alquileres_h2_container h2 {
+    font-size: 1.5rem;
+}
+
+.alquileres_p_container {
+    display: block;
+    width: 35rem;
+    text-align: center;
+    margin: 1.5rem;
+
+}
+
+.alquileres_p_container p {
+    text-align: center;
+    margin-left: 50px;
+}
+
+.alquileres_cargarMas_container {
+    display: block;
+    text-align: center;
+}
+
+.alquileres_cargarMas_container p {
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 375px) {
+    .main_alquileres_container {
+        flex-direction: column;
+        
+    }
+
+    img {
+        width: 330px;
+    }
 }

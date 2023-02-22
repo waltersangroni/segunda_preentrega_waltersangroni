@@ -12,7 +12,6 @@
 </head>
 
 <body>
-  <section class="body_container">
   <nav class="navbar navbar-expand-lg bg-body-tertiary">
     <div class="container-fluid logo_anton">
       <a class="navbar-brand" href="../index.html"><img src="../img/logoAnton.png" alt="InmobiliariaAnton"></a>
@@ -32,50 +31,51 @@
   </nav>
 
   <main>
-    <section  class="main_alquileres_container">
+    <section>
         <article>
-            <div class="main_alquileres_container_img">
-                <img src="../img/alqtempo.jpg" alt="Alquiler temporario">
-            </div>
-            <div class="alquileres_h2_container">
-              <h2>ALQUILER TURÍSTICO x día en Esquel⛰️🌲</h2>
-            </div>
-            <div class="alquileres_p_container">
-                <p>
-                    Hermosos y cómodos departamentos en barrio residencial.
-                    ✔️Capacidad para 2 o 3 pax.
-                    ✔️Totalmente equipados.
-                    ✔️Cocina comedor, habitación y baño.
-                    ✔️Patio con fogonero.
-                    ✔️Servicio de limpieza.
-                    ✔️Garage descubierto
+            <div>
+                <h1>Contacto</h1>
+                <form action="post">
+                    <label for="firstName">Nombre</label>
+                    <input type="text" name="firstName" id="firstName" placeholder="Nombre" required>
+                    <label for="lastName">Apellido</label>
+                    <input type="text" name="lastName" id="lastName" placeholder="Apellido" required>
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" placeholder="Email" required>
+                    <label for="phone">Telefono</label>
+                    <input type="tel" name="phone" id="phone" placeholder="Telefono" required>
+                    <select name="opciones">
+                        <option value="tasaciones">Tasaciones</option>
+                        <option value="venta">Comprar o Vender una propiedad</option>
+                        <option value="alquiler">Alquileres</option>
+                        <option value="temporarios">Alquileres temporarios</option>
+                        <textarea name="comentarios" id="" cols="30" rows="10">Deje su consulta</textarea>
+                        <input type="submit" value="Enviar">
+                        <input type="reset" value="Resetear">
 
-                    ✨️Disponible temporada 2023.</p>
-            </div>
-        </article>
-
-        <article>
-            <div class="main_alquileres_container_img">
-                <img src="../img/alqtempo1.jpg" alt="Alquiler temporario">
-            </div>
-            <div class="alquileres_h2_container">
-              <h2>ALQUILER en Esquel.⛰️🌲</h2>
-            </div>
-            <div class="alquileres_p_container">
-                <p>
-
-                    ✔️Departamento en primer piso, amplio y céntrico. (Rivadavia a mts de 25 de Mayo).
-                    ✔️3 dormitorios, cocina comedor y living.
-                    ✔️Baño completo.
-
-                    Consultanos 📱2945 598981</p>
+                </form>
             </div>
         </article>
     </section>
-    <div class="alquileres_cargarMas_container">
-        <p>Cargar más</p>
-    </div>
+
+    <section>
+        <article>
+            <div>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2922.0493166792717!2d-71.32406048454791!3d-42.914000879153534!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x961dac3a69469f57%3A0xfb9882eae8bab8b1!2s9%20de%20Julio%20963%2C%20U9200%20Esquel%2C%20Chubut!5e0!3m2!1ses!2sar!4v1674127174809!5m2!1ses!2sar"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </article>
+    </section>
+
+    <section>
+        <aside>
+
+        </aside>
+    </section>
 </main>
+
 
   <footer>
     <div>
@@ -99,7 +99,6 @@
     </div>
   </footer>
 
-</section>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
     crossorigin="anonymous"></script>
