@@ -14,9 +14,6 @@ html {
     height: 100%;
 }
 
-.img_galeria {
-    height: 300px;
-}
 
 .logo_anton img {
     width: 120px;
@@ -46,16 +43,22 @@ footer {
     background-color: #dcdcdc;
 }
 
+.footer_container {
+    display: flex;
+    justify-content: space-between;
+}
 
 .redes_container {
      display: flex;
      justify-content: space-around;
      align-items: center;
      
+     
 }
 
 .redes_container li {
     list-style-type: none;
+    margin-right: 20px;
     
 }
 
@@ -69,14 +72,15 @@ footer {
 
 .copy_container {
     text-align: right;
-    margin-top: 10px;
+    margin-top: 15px;
+    margin-right: 10px;
 
 }
 
 .copy_container p {
     font-size: 1rem;
     position: relative;
-    top: 10px;
+    
     
 }
 
@@ -91,6 +95,10 @@ footer {
             display: flex;
             justify-content: flex-start;
 
+    }
+
+    .redes_container li {
+        margin-right: 2px;
     }
 
     .redes_container li a {
@@ -113,6 +121,10 @@ footer {
 .main_alquileres_container_img img {
     margin: 2rem;
 
+}
+
+.img_galeria {
+    height: 300px;
 }
 
 .alquileres_h2_container {

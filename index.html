@@ -2,89 +2,92 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-    <title>Practica de bootstrap</title>
-    <link rel="stylesheet" href="./css/style.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <link rel="stylesheet" href="./css/style.css">
+  <title>Practica de bootstrap</title>
 </head>
 
 <body>
   <section class="body_container">
     <header>
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
-            <div class="container-fluid logo_anton">
-                <a class="navbar-brand" href="#"><img src="img/logoAnton.png" alt="Inmobiliaria Anton"></a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
-                    aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse nav_link_container container" id="navbarNavAltMarkup">
-                    <div class="navbar-nav nav_link_div_container">
-                        <a class="nav-link link" href="./pages/ventas.html">Ventas</a>
-                        <a class="nav-link link" href="./pages/alquileres.html">Alquileres</a>
-                        <a class="nav-link link" href="./pages/servicios.html">Servicios</a>
-                        <a class="nav-link link" href="./pages/contacto.html">Contacto</a>
-                    </div>
-                </div>
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid logo_anton">
+          <a class="navbar-brand" href="./index.html"><img src="img/logoAnton.png" alt="Inmobiliaria Anton"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse nav_link_container container" id="navbarNavAltMarkup">
+            <div class="navbar-nav nav_link_div_container">
+              <a class="nav-link link" href="./pages/ventas.html">Ventas</a>
+              <a class="nav-link link" href="./pages/alquileres.html">Alquileres</a>
+              <a class="nav-link link" href="./pages/servicios.html">Servicios</a>
+              <a class="nav-link link" href="./pages/contacto.html">Contacto</a>
             </div>
-        </nav>
+          </div>
+        </div>
+      </nav>
     </header>
 
     <main>
-        <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img src="./img/carrusel1.jpg" class="d-block w-100" alt="...">
-              </div>
-              <div class="carousel-item">
-                <img src="./img/carrusel2.jpg" class="d-block w-100" alt="...">
-              </div>
-              <div class="carousel-item">
-                <img src="./img/carrusel3.jpg" class="d-block w-100" alt="...">
-              </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
+      <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./img/carrusel1.jpg" class="d-block w-100" alt="...">
           </div>
+          <div class="carousel-item">
+            <img src="./img/carrusel2.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./img/carrusel3.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
 
     </main>
 
     <footer>
-      <div>
+      <div class="footer_container">
         <ul class="redes_container">
-            <li>
-                <a href="https://www.instagram.com/antonpropiedades/" target="_blank"><img
-                        src="./img/logo-insta.png" alt="Instagram"></a>
-            </li>
-            <li>
-                <a href="https://www.facebook.com/antonpropiedades" target="_blank"><img
-                        src="./img/logo-face.png" alt="facebook"></a>
-            </li>
-            <li>
-                <a href="https://api.whatsapp.com/send?phone=1161473226" target="_blank"><img
-                        src="./img/logo-whatsapp.png" alt="whatsapp"></a>
-            </li>
-            <div class="copy_container">
-              <p>© 2023 by Walter Sangroni. All rights reserved.</p>
-          </div>
-        </ul>
+          <li>
+            <a href="https://www.instagram.com/antonpropiedades/" target="_blank"><img src="./img/logo-insta.png"
+                alt="Instagram"></a>
+          </li>
+          <li>
+            <a href="https://www.facebook.com/antonpropiedades" target="_blank"><img src="./img/logo-face.png"
+                alt="facebook"></a>
+          </li>
+          <li>
+            <a href="https://api.whatsapp.com/send?phone=1161473226" target="_blank"><img src="./img/logo-whatsapp.png"
+                alt="whatsapp"></a>
+          </li>
 
-    </div>
+        </ul>
+        <div class="copy_container">
+          <p>© 2023 by Walter Sangroni. All rights reserved.</p>
+        </div>
+
+      </div>
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
-        crossorigin="anonymous"></script>
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"></script>
 </body>
- </section>
+</section>
+
 </html>
